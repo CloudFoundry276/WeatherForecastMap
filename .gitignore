@@ -1,2 +1,5 @@
+# ignore map.html file
+map.html
+
 # ignore apikey.txt file
 apikey.txt
