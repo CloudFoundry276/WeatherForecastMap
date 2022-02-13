@@ -19,6 +19,7 @@ locations = [
 # Map Instance
 mymap = Map(location=[-27.67315, 134.63065])
 
+# starts for loop
 for lat, lon in locations:
     """Create a Geopoint Instance"""
     geopoint = Geopoint(latitude=lat, longitude=lon)
