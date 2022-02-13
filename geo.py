@@ -9,5 +9,5 @@ class Geopoint(Marker):
         self.longitude = longitude
 
     def get_weather(self):
-        weather = Weather(apikey="f40822e9fa60058c4f306143fcd6850a", lat=self.latitude, lon=self.longitude)
+        weather = Weather(apikey="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", lat=self.latitude, lon=self.longitude)
         return weather.next_12h_simplified()
